@@ -5,6 +5,10 @@ import (
 	"sync"
 )
 
+/**
+ * 实验: 测试sync.Once的使用
+ */
+
 var (
 	config map[string]string
 	once   sync.Once

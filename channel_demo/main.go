@@ -5,6 +5,9 @@ import (
 	"sync/atomic"
 )
 
+/**
+ * 实验：使用通道实现轮训10次打印
+ */
 func main() {
 	var count = new(atomic.Int32)
 	count.Store(1)

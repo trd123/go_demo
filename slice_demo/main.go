@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+/**
+ * 实验: 切片越界的情况
+ */
 func main() {
 	arr := []int{1, 2, 3, 4, 5}
 	s1 := arr[1:3]
